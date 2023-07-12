@@ -24,6 +24,8 @@ dependencies {
     implementation("org.zalando:logbook-netty:3.0.0")
     implementation("org.springframework.cloud:spring-cloud-starter-config")
     implementation("org.springframework.cloud:spring-cloud-stream-binder-rabbit")
+    implementation("org.zalando:logbook-spring-boot-webflux-autoconfigure:3.0.0")
+    implementation("org.zalando:logbook-netty:3.0.0")
     implementation("org.springframework.boot:spring-boot-starter-actuator")
     implementation("org.springframework.cloud:spring-cloud-function-context")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
